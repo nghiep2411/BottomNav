@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/movitel"
+        android:title="Movitel ++"
+        android:icon="@drawable/ic_shop"
+        />
+
+    <item
+        android:id="@+id/promotion"
+        android:title="Promotion"
+        android:icon="@drawable/ic_favorite"
+        />
+    <item
+        android:id="@+id/selfcare"
+        android:title="Selfcare"
+        android:icon="@drawable/ic_baseline_directions_run_24"
+        />
+    <item
+        android:id="@+id/relax"
+        android:title="Relax"
+        android:icon="@drawable/ic_relax"
+        />
+
+</menu>

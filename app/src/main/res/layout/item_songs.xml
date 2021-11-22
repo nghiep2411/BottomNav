@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imgSong"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sangchi"
+        app:riv_corner_radius="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imgSong"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:id="@+id/nameSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Em của ngày hôm qua"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/singleSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sơn tùng MTP"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ic_menu" />
+
+
+
+</RelativeLayout>

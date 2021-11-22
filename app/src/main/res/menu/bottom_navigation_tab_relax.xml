@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_movie"
+        android:icon="@drawable/ic_tab_movie"
+        android:title="Movie" />
+
+    <item
+        android:id="@+id/nav_television"
+        android:icon="@drawable/ic_tab_television"
+        android:title="Television" />
+
+    <item
+        android:id="@+id/nav_sport"
+        android:icon="@drawable/ic_tab_sport"
+        android:title="Sport" />
+
+    <item
+        android:id="@+id/nav_clip"
+        android:icon="@drawable/ic_tab_clip"
+        android:title="Clip" />
+
+    <item
+        android:id="@+id/nav_music"
+        android:icon="@drawable/ic_tab_music"
+        android:title="Music" />
+
+</menu>
